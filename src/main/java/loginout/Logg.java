@@ -14,5 +14,8 @@ public class Logg {
 	driver.manage().window().maximize();
 	driver.findElementByLinkText("Datepicker").click();
 	driver.close();
+	//launch google browser
+	driver.get("www.google.com");
+	driver.close();
 }
 }
